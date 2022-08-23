@@ -1,0 +1,128 @@
+.header{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.balance{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+.box1{
+    box-sizing: content-box;
+    height: 150px;
+    width: 450px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 10px;
+    background-color: white;
+    box-shadow:0px 3px 2px 1px gray, -3px 0px 2px 1px gray;
+    display: flex;
+
+
+}
+
+.income{
+    margin-top: 25px;
+    height: 100px;
+    width: 220px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid gray;
+}
+.expense{
+    height: 150px;
+    width: 220px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.moneyp{
+    color: goldenrod;
+}
+.moneyn{
+    color: red;
+}
+.Trans-ht{
+    font-size: x-large;
+    font-weight: 500;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    box-sizing: content-box;
+    width:400px;
+    height: 30px;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    margin-right: 40px;
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 2px 1px gray, -3px 0px 2px gray;
+    
+}
+.positive{
+    border-right: 8px solid green;
+}
+.negative{
+    border-right: 8px solid red;
+}
+.positive:hover{
+    background-color: green;
+    color: white;
+}
+.negative:hover{
+    background-color: red;
+    color: white;
+}
+.add-new{
+    font-size: x-large;
+    font-weight: 500;
+}
+input{
+    width: 450px;
+    height: 32px;
+}
+.des{
+    width: 450px;
+}
+.description{
+    justify-content: flex-start;
+    position: relative;
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+}
+.val{
+    width: 450px;
+}
+.val{
+    justify-content: flex-start;
+    position: relative;
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: rgba(138, 43, 226,0.85);
+    height: 40px;
+    font-size: larger;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: rgba(138, 43, 226,1);
+
+}
