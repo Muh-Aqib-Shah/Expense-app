@@ -9,7 +9,6 @@ function Child() {
 
   let {transactions, addTransaction} = useContext(TransactionContext)
   console.log({transactions})
-  const { delTransaction } = useContext(TransactionContext);
   let [newDesc,setDesc] = useState()
   let [newAmount,setAmount] = useState()
   console.log(newDesc,newAmount)

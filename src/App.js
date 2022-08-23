@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Child from './child.js';
+import Child from './Child.js';
 import {TransactionProvider} from './transContext.js';
 
 function App() {

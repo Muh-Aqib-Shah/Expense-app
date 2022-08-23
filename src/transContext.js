@@ -34,7 +34,6 @@ export const TransactionProvider = ({children})=> {
         <TransactionContext.Provider value={{
             transactions: state,
             addTransaction,
-            delTransaction
         }}>
             {children}
         </TransactionContext.Provider>
