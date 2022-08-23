@@ -28,13 +28,7 @@ function Child() {
 
     setDesc('');
     setAmount(0)
-    const newTransaction = {
-      id: Math.floor(Math.random() * 100000000),
-      newDesc,
-      Setmount: +setAmount
-  }
-
-  addTransaction(newTransaction);
+ 
 }
 
 const getIncome = () => {
@@ -68,7 +62,6 @@ const getExpense = () => {
                     return (<li key={ind} className={`value ${transObj.amount>0? "positive": "negative"}`}>   
                         <span>{transObj.desc}</span>
                         <span>${transObj.amount}</span>
-                        <button onClick={ () => delTransaction(ind) }>X</button>
                     </li>
                     )
                 })}
